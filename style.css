@@ -1,0 +1,191 @@
+/* ссылка на макет сайта "https://dribbble.com/shots/3060963-Fusion-Travel-Agency-FreeBie/attachments/643459?mode=media" */
+
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url('https://copperware.files.wordpress.com/2016/05/london-city-40-high-resolution-wallpaper.jpg');
+    background-size: cover;
+}
+.shapka-shapka {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 150px;
+    padding: 25px;
+    word-spacing:15px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-right: 260px;
+    font-size:80%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#icon {margin-left:280px;}
+#number {
+    margin-left: -10px;
+    word-spacing: 3px;
+}
+.space {word-spacing: 2px;}
+#h3srift {font-size: 60%;}
+
+.shapka{
+    color: white;
+    margin:0 auto;
+    margin-top: 115px;
+    text-align: center;
+    text-shadow: 1px 1px 1px  black;
+    padding-bottom: 400px;
+    font-size: larger;
+    line-height: 15px;
+}
+#yellow {
+    border:100%;
+    background-color: rgb(243, 179, 41);
+    border-radius: 22px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px rgb(255, 238, 0);
+    cursor: pointer;
+}
+main {
+    background-color: rgb(245, 245, 245);
+    margin: 0 auto;
+    padding-top: 115px;
+    padding-bottom: 500px;
+    color: rgb(12, 10, 10);
+}
+#Zagolovok {
+    color: #000000;
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#prizyv_cherta {
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 200px;
+    color: hsl(0, 0%, 0%);
+}
+.slider-wrapper {
+     display: flex;
+    width: 100%;
+    margin:10px auto;
+}
+
+.slide {
+    width:32%;
+    margin:0 calc(4% / 6);
+    text-align: center;
+
+}
+#plane {
+    
+    /* margin-right: 10px;
+    margin-left:260px;
+    padding-left: 20px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+#plane-p {
+    
+    
+    /* margin-left: 260px;
+    padding-left: 30px;
+    width:205px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-right: 20px;
+    margin-right: 10px; */
+}
+#heart {
+    /* width:200px;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-right: 20px;
+    margin-right: 10px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+#heart-p {
+    /* width:200px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-left:20px;
+    margin-left: 10px;
+    padding-right: 20px;
+    margin-right: 10px; */
+    
+
+}
+#star {
+    
+    /* padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 240px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#star-p {
+    
+    /* word-spacing: 2px;
+    line-height: 20px;
+    width:180px;
+    padding-right:20px;
+    margin-right:240px;
+    padding-left: 20px;
+    margin-left: 10px; */
+}
+.second {
+    padding-top: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    margin-left: 5px;
+    background-color: rgb(27, 77, 121);
+}
+.first {
+    padding-top: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-left: 550px;
+    background-color: rgb(54, 138, 211);
+    /*display:block;
+  float:left;
+  width:100%;
+  padding-top:50%;
+  padding-bottom:50%;
+  line-height:1em;
+  margin-top:-0.5em;
+        
+  text-align:center;
+  color:#e2eaf3;
+  font-family:Verdana;
+  font-size:1.2em;
+  font-weight:bold;
+  text-decoration:none;*/
+}
+.third {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-left: 5px;
+    background-color: rgb(77, 129, 175);
+    padding-top: auto;
+
+}
+/* .boks-ten {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+} */
+.slide:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
